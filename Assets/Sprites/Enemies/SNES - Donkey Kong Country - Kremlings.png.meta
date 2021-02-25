@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7136738302029650872
-    second: KremlingSmall1
+    second: KremlingSmallTurn1
   - first:
       213: -479987736406453040
-    second: KremlingSmall2
+    second: KremlingSmallTurn2
   - first:
       213: -2020080793635476181
-    second: KremlingSmall3
+    second: KremlingSmall_Walk1
   - first:
       213: -7528753996254763245
-    second: KremlingSmall4
+    second: KremlingSmall_Walk2
   - first:
       213: 5197975613445591642
-    second: KremlingSmall5
+    second: KremlingSmall_Walk3
   - first:
       213: 6195198046745628915
-    second: KremlingSmall6
+    second: KremlingSmall_Walk4
   - first:
       213: 9113422149662579306
-    second: KremlingSmall7
+    second: KremlingSmall_Walk5
   - first:
       213: -4957564108569291750
-    second: KremlingSmall8
+    second: KremlingSmall_Walk6
   - first:
       213: -3118581218891485163
-    second: KremlingSmall9
+    second: KremlingSmall_Walk7
   - first:
       213: 4243349067242914150
-    second: KremlingSmall10
+    second: KremlingSmall_Walk8
   - first:
       213: -3041485830203414435
     second: SNES - Donkey Kong Country - Kremlings_10
@@ -49,34 +49,34 @@ TextureImporter:
     second: SNES - Donkey Kong Country - Kremlings_14
   - first:
       213: -1100316679099350789
-    second: SNES - Donkey Kong Country - Kremlings_15
+    second: KremlingSmall_Jump1
   - first:
       213: 1486950052354807944
-    second: SNES - Donkey Kong Country - Kremlings_16
+    second: KremlingSmall_Jump2
   - first:
       213: 1177879827244909514
-    second: SNES - Donkey Kong Country - Kremlings_17
+    second: KremlingSmall_Jump3
   - first:
       213: -5663784180785652111
-    second: SNES - Donkey Kong Country - Kremlings_18
+    second: KremlingSmall_Jump4
   - first:
       213: 5767339683382618832
-    second: SNES - Donkey Kong Country - Kremlings_19
+    second: KremlingSmall_Jump5
   - first:
       213: -2603397046271623028
-    second: SNES - Donkey Kong Country - Kremlings_20
+    second: KremlingSmall_Jump6
   - first:
       213: -8996112466224315659
-    second: SNES - Donkey Kong Country - Kremlings_21
+    second: KremlingSmall__Jump7
   - first:
       213: -9130555315222153120
-    second: SNES - Donkey Kong Country - Kremlings_22
+    second: KremlingSmall_Jump8
   - first:
       213: 4480269472648026731
-    second: SNES - Donkey Kong Country - Kremlings_23
+    second: KremlingSmall_Jump9
   - first:
       213: -9062859404340395661
-    second: SNES - Donkey Kong Country - Kremlings_24
+    second: KremlingSmall_Jump10
   - first:
       213: -7148364710888884984
     second: SNES - Donkey Kong Country - Kremlings_25
@@ -112,7 +112,7 @@ TextureImporter:
     second: KremlingSmallDie6
   - first:
       213: -2461308605341646336
-    second: SNES - Donkey KoKremlingSmallDie7
+    second: KremlingSmallDie7
   - first:
       213: 906189387698307072
     second: KremlingSmallDie8
@@ -121,7 +121,7 @@ TextureImporter:
     second: KremlingSmallDie1
   - first:
       213: -5587419723730011155
-    second: 2
+    second: KremlingSmallDie2
   - first:
       213: -3649082064763198741
     second: KremlingSmallDie3
@@ -358,28 +358,28 @@ TextureImporter:
     second: KremlingLarge8
   - first:
       213: 261656135744182486
-    second: KremlingLargeImmune
+    second: KremlingLarge_Immune
   - first:
       213: 3296855215043462207
-    second: KremlingLargeDie1
+    second: KremlingLarge_Die1
   - first:
       213: 3368143828997738134
-    second: KremlingLargeDie2
+    second: KremlingLarge_Die2
   - first:
       213: 9022707555352107114
-    second: KremlingLargeDie3
+    second: KremlingLarge_Die3
   - first:
       213: -357218704495859585
-    second: KremlingLargeDie4
+    second: KremlingLarge_Die4
   - first:
       213: -8416835764114439846
-    second: KremlingLargeDie5
+    second: KremlingLarge_Die5
   - first:
       213: 68537007917667775
-    second: KremlingLargeDie6
+    second: KremlingLarge_Die6
   - first:
       213: -9129625217899749187
-    second: KremlingLargeDie7
+    second: KremlingLarge_Die7
   - first:
       213: -795870319728944711
     second: SNES - Donkey Kong Country - Kremlings_126
@@ -691,7 +691,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KremlingSmall1
+      name: KremlingSmallTurn1
       rect:
         serializedVersion: 2
         x: 8
@@ -712,7 +712,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall2
+      name: KremlingSmallTurn2
       rect:
         serializedVersion: 2
         x: 64
@@ -733,7 +733,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall3
+      name: KremlingSmall_Walk1
       rect:
         serializedVersion: 2
         x: 115
@@ -754,7 +754,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall4
+      name: KremlingSmall_Walk2
       rect:
         serializedVersion: 2
         x: 174
@@ -775,7 +775,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall5
+      name: KremlingSmall_Walk3
       rect:
         serializedVersion: 2
         x: 234
@@ -796,7 +796,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall6
+      name: KremlingSmall_Walk4
       rect:
         serializedVersion: 2
         x: 297
@@ -817,7 +817,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall7
+      name: KremlingSmall_Walk5
       rect:
         serializedVersion: 2
         x: 355
@@ -838,7 +838,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall8
+      name: KremlingSmall_Walk6
       rect:
         serializedVersion: 2
         x: 411
@@ -859,7 +859,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall9
+      name: KremlingSmall_Walk7
       rect:
         serializedVersion: 2
         x: 460
@@ -880,7 +880,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingSmall10
+      name: KremlingSmall_Walk8
       rect:
         serializedVersion: 2
         x: 514
@@ -1006,11 +1006,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_15
+      name: KremlingSmall_Jump1
       rect:
         serializedVersion: 2
         x: 15
-        y: 619
+        y: 620
         width: 50
         height: 38
       alignment: 7
@@ -1027,7 +1027,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_16
+      name: KremlingSmall_Jump2
       rect:
         serializedVersion: 2
         x: 71
@@ -1048,7 +1048,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_17
+      name: KremlingSmall_Jump3
       rect:
         serializedVersion: 2
         x: 133
@@ -1069,7 +1069,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_18
+      name: KremlingSmall_Jump4
       rect:
         serializedVersion: 2
         x: 188
@@ -1090,11 +1090,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_19
+      name: KremlingSmall_Jump5
       rect:
         serializedVersion: 2
         x: 239
-        y: 618
+        y: 619
         width: 46
         height: 52
       alignment: 7
@@ -1111,7 +1111,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_20
+      name: KremlingSmall_Jump6
       rect:
         serializedVersion: 2
         x: 287
@@ -1132,11 +1132,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_21
+      name: KremlingSmall__Jump7
       rect:
         serializedVersion: 2
         x: 337
-        y: 618
+        y: 619
         width: 44
         height: 47
       alignment: 7
@@ -1153,7 +1153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_22
+      name: KremlingSmall_Jump8
       rect:
         serializedVersion: 2
         x: 390
@@ -1174,7 +1174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_23
+      name: KremlingSmall_Jump9
       rect:
         serializedVersion: 2
         x: 439
@@ -1195,7 +1195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_24
+      name: KremlingSmall_Jump10
       rect:
         serializedVersion: 2
         x: 489
@@ -1363,27 +1363,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Kremlings_32
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 596
-        width: 8
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a37c868e2d06e89d0800000000000000
-      internalID: -2770170261827696838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: KremlingSmallDie4
       rect:
         serializedVersion: 2
@@ -1447,7 +1426,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey KoKremlingSmallDie7
+      name: KremlingSmallDie7
       rect:
         serializedVersion: 2
         x: 375
@@ -1493,9 +1472,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 17
-        y: 553
+        y: 554
         width: 37
-        height: 41
+        height: 47
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1510,7 +1489,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2
+      name: KremlingSmallDie2
       rect:
         serializedVersion: 2
         x: 68
@@ -3026,7 +3005,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 230
-        y: 410
+        y: 411
         width: 40
         height: 64
       alignment: 7
@@ -3110,7 +3089,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 410
+        y: 411
         width: 46
         height: 62
       alignment: 7
@@ -3169,7 +3148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingLargeImmune
+      name: KremlingLarge_Immune
       rect:
         serializedVersion: 2
         x: 11
@@ -3190,11 +3169,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingLargeDie1
+      name: KremlingLarge_Die1
       rect:
         serializedVersion: 2
         x: 110
-        y: 337
+        y: 339
         width: 55
         height: 64
       alignment: 7
@@ -3211,7 +3190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingLargeDie2
+      name: KremlingLarge_Die2
       rect:
         serializedVersion: 2
         x: 170
@@ -3232,7 +3211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingLargeDie3
+      name: KremlingLarge_Die3
       rect:
         serializedVersion: 2
         x: 232
@@ -3253,7 +3232,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingLargeDie4
+      name: KremlingLarge_Die4
       rect:
         serializedVersion: 2
         x: 285
@@ -3274,7 +3253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingLargeDie5
+      name: KremlingLarge_Die5
       rect:
         serializedVersion: 2
         x: 341
@@ -3295,7 +3274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingLargeDie6
+      name: KremlingLarge_Die6
       rect:
         serializedVersion: 2
         x: 399
@@ -3316,7 +3295,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KremlingLargeDie7
+      name: KremlingLarge_Die7
       rect:
         serializedVersion: 2
         x: 471

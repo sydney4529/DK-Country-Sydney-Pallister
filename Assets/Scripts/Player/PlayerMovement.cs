@@ -147,22 +147,22 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator JumpForceChange()
     {
-        jumpForce = 500;
+        jumpForce = 300;
         yield return new WaitForSeconds(2.0f);
-        jumpForce = 350;
+        jumpForce = 200;
     }
 
     void OnTriggerStay2D(Collider2D collision)
     {
+
         if(collision.gameObject.tag == "Pickups")
         {
-            //Debug.Log("hit key");
-            if (Input.GetKeyDown(KeyCode.E))
+            Pickups curPickup = collision.GetComponent<Pickups>();
+            if (Input.GetKey(KeyCode.E))
             {
-                Pickups curPickup = collision.GetComponent<Pickups>();
                 switch (curPickup.currentCollectible)
                 {
-                    case Pickups.CollectibleType.KEY:
+                    case Pickups.CollectibleType.BONUS:
                         //add to inventory or other mechanic
                         Destroy(collision.gameObject);
                         break;

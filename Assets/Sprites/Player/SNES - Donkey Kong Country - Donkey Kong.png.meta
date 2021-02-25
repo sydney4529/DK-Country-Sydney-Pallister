@@ -238,7 +238,7 @@ TextureImporter:
     second: DK_Walk5
   - first:
       213: 1932923658376524930
-    second: SNES - Donkey KoDK_Walk6
+    second: DK_Walk6
   - first:
       213: 704094717546175096
     second: DK_Walk7
@@ -331,7 +331,7 @@ TextureImporter:
     second: DK_Run9
   - first:
       213: -2297555997508917261
-    second: SNEDK_Run10
+    second: DK_Run10
   - first:
       213: 4153972066256370797
     second: DK_Run11
@@ -445,7 +445,7 @@ TextureImporter:
     second: DK_Roll11
   - first:
       213: 3947282346823421725
-    second: SNES - Donkey Kong CounDK_Roll12
+    second: DK_Roll12
   - first:
       213: -8279122309484121950
     second: DK_Roll13
@@ -511,13 +511,13 @@ TextureImporter:
     second: DK_Fall5
   - first:
       213: -7745279686122653090
-    second: DK_Fall6
+    second: DK_Land1
   - first:
       213: -4222025998180902063
-    second: DK_Fall7
+    second: DK_Land2
   - first:
       213: 2511610505773473669
-    second: DK_Fall8
+    second: DK_Land3
   - first:
       213: 6398212699046010227
     second: SNES - Donkey Kong Country - Donkey Kong_172
@@ -619,58 +619,58 @@ TextureImporter:
     second: SNES - Donkey Kong Country - Donkey Kong_204
   - first:
       213: -8681089224614178172
-    second: SNES - Donkey Kong Country - Donkey Kong_205
+    second: DK_Die1
   - first:
       213: -1493160340673533262
-    second: SNES - Donkey Kong Country - Donkey Kong_206
+    second: DK_Die2
   - first:
       213: -6695310404344258285
-    second: SNES - Donkey Kong Country - Donkey Kong_207
+    second: DK_Die3
   - first:
       213: 3468069855978454558
-    second: SNES - Donkey Kong Country - Donkey Kong_208
+    second: DK_Die4
   - first:
       213: -5122577728277819978
-    second: SNES - Donkey Kong Country - Donkey Kong_209
+    second: DK_Die5
   - first:
       213: 114700849812446002
-    second: SNES - Donkey Kong Country - Donkey Kong_210
+    second: DK_Die6
   - first:
       213: -2280400774300861491
-    second: SNES - Donkey Kong Country - Donkey Kong_211
+    second: DK_Die7
   - first:
       213: 7574048353994531151
-    second: SNES - Donkey Kong Country - Donkey Kong_212
+    second: DK_Die8
   - first:
       213: -3316415884166399658
-    second: SNES - Donkey Kong Country - Donkey Kong_213
+    second: DK_Die9
   - first:
       213: 1231901416395475531
-    second: SNES - Donkey Kong Country - Donkey Kong_214
+    second: DK_Die10
   - first:
       213: -2038294059776885298
-    second: SNES - Donkey Kong Country - Donkey Kong_215
+    second: DK_Die11
   - first:
       213: 5889757314531835578
-    second: SNES - Donkey Kong Country - Donkey Kong_216
+    second: DK_Die12
   - first:
       213: -1265525829855610910
-    second: SNES - Donkey Kong Country - Donkey Kong_217
+    second: DK_Die13
   - first:
       213: 2570217604812000928
-    second: SNES - Donkey Kong Country - Donkey Kong_218
+    second: DK_Die14
   - first:
       213: 1964471983965554198
-    second: SNES - Donkey Kong Country - Donkey Kong_219
+    second: DK_Die15
   - first:
       213: -5648927027070823099
-    second: SNES - Donkey Kong Country - Donkey Kong_220
+    second: DK_Die16
   - first:
       213: 3734344530292159038
-    second: SNES - Donkey Kong Country - Donkey Kong_221
+    second: DK_Die17
   - first:
       213: 7125732841863408054
-    second: SNES - Donkey Kong Country - Donkey Kong_222
+    second: DK_Die18
   - first:
       213: 7826571711696552907
     second: SNES - Donkey Kong Country - Donkey Kong_223
@@ -772,7 +772,7 @@ TextureImporter:
     second: DK_Throw7
   - first:
       213: 4928120871941688555
-    second: SNEDK_Throw8
+    second: DK_Throw8
   - first:
       213: -2994844767251267348
     second: DK_Throw9
@@ -2951,7 +2951,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 140
-        y: 2517
+        y: 2518
         width: 39
         height: 39
       alignment: 7
@@ -4480,7 +4480,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey KoDK_Walk6
+      name: DK_Walk6
       rect:
         serializedVersion: 2
         x: 248
@@ -5131,7 +5131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNEDK_Run10
+      name: DK_Run10
       rect:
         serializedVersion: 2
         x: 644
@@ -5929,7 +5929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong CounDK_Roll12
+      name: DK_Roll12
       rect:
         serializedVersion: 2
         x: 1247
@@ -6391,7 +6391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Fall6
+      name: DK_Land1
       rect:
         serializedVersion: 2
         x: 742
@@ -6412,7 +6412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Fall7
+      name: DK_Land2
       rect:
         serializedVersion: 2
         x: 786
@@ -6433,7 +6433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Fall8
+      name: DK_Land3
       rect:
         serializedVersion: 2
         x: 840
@@ -7147,7 +7147,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_205
+      name: DK_Die1
       rect:
         serializedVersion: 2
         x: 3
@@ -7168,7 +7168,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_206
+      name: DK_Die2
       rect:
         serializedVersion: 2
         x: 68
@@ -7189,7 +7189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_207
+      name: DK_Die3
       rect:
         serializedVersion: 2
         x: 135
@@ -7210,7 +7210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_208
+      name: DK_Die4
       rect:
         serializedVersion: 2
         x: 201
@@ -7231,7 +7231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_209
+      name: DK_Die5
       rect:
         serializedVersion: 2
         x: 263
@@ -7252,7 +7252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_210
+      name: DK_Die6
       rect:
         serializedVersion: 2
         x: 323
@@ -7273,7 +7273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_211
+      name: DK_Die7
       rect:
         serializedVersion: 2
         x: 374
@@ -7294,7 +7294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_212
+      name: DK_Die8
       rect:
         serializedVersion: 2
         x: 441
@@ -7315,7 +7315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_213
+      name: DK_Die9
       rect:
         serializedVersion: 2
         x: 510
@@ -7336,7 +7336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_214
+      name: DK_Die10
       rect:
         serializedVersion: 2
         x: 577
@@ -7357,7 +7357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_215
+      name: DK_Die11
       rect:
         serializedVersion: 2
         x: 643
@@ -7378,11 +7378,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_216
+      name: DK_Die12
       rect:
         serializedVersion: 2
         x: 694
-        y: 1986
+        y: 1987
         width: 41
         height: 46
       alignment: 7
@@ -7399,7 +7399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_217
+      name: DK_Die13
       rect:
         serializedVersion: 2
         x: 746
@@ -7420,7 +7420,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_218
+      name: DK_Die14
       rect:
         serializedVersion: 2
         x: 796
@@ -7441,7 +7441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_219
+      name: DK_Die15
       rect:
         serializedVersion: 2
         x: 845
@@ -7462,11 +7462,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_220
+      name: DK_Die16
       rect:
         serializedVersion: 2
         x: 895
-        y: 1988
+        y: 1989
         width: 43
         height: 48
       alignment: 7
@@ -7483,7 +7483,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_221
+      name: DK_Die17
       rect:
         serializedVersion: 2
         x: 943
@@ -7504,7 +7504,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_222
+      name: DK_Die18
       rect:
         serializedVersion: 2
         x: 991
@@ -8159,7 +8159,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 193
-        y: 1827
+        y: 1826
         width: 57
         height: 51
       alignment: 7
@@ -8218,7 +8218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNEDK_Throw8
+      name: DK_Throw8
       rect:
         serializedVersion: 2
         x: 373
@@ -8306,7 +8306,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 600
-        y: 1827
+        y: 1828
         width: 48
         height: 66
       alignment: 7

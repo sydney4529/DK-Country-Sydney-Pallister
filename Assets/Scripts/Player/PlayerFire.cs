@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PlayerFire : MonoBehaviour
 {
-    SpriteRenderer marioSprite;
+    SpriteRenderer donkeyKongSprite;
 
     public Transform spawnPointLeft;
     public Transform spawnPointRight;
@@ -17,7 +17,7 @@ public class PlayerFire : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        marioSprite = GetComponent<SpriteRenderer>();
+        donkeyKongSprite = GetComponent<SpriteRenderer>();
 
         if (projectileSpeed <=0)
         {
@@ -40,7 +40,7 @@ public class PlayerFire : MonoBehaviour
 
     void FireProjectile()
     {
-        if (marioSprite.flipX)
+        if (donkeyKongSprite.flipX)
         {
             //Debug.Log("fire left");
             Projectile projectileInstance = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);

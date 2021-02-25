@@ -137,7 +137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593791617424318701}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.104, y: 0.469, z: -123.27725}
+  m_LocalPosition: {x: -0.171, y: 0.484, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8925251277883363454}
@@ -167,7 +167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6795167131381653164}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.104, y: 0.469, z: -123.27725}
+  m_LocalPosition: {x: 0.171, y: 0.484, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8925251277883363454}
@@ -367,5 +367,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPointLeft: {fileID: 468121212724482210}
   spawnPointRight: {fileID: 6743750283844587726}
-  projectileSpeed: 2
+  projectileSpeed: 7
   projectilePrefab: {fileID: 6265428157057339102, guid: 3532e82f5fc252b4993e984e7c13c4e4, type: 3}
