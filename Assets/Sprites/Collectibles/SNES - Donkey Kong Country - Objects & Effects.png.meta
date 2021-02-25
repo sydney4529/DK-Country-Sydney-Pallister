@@ -13615,7 +13615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_644
+      name: BarrelRolls2
       rect:
         serializedVersion: 2
         x: 274
@@ -13636,7 +13636,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_645
+      name: BarrelRoll1
       rect:
         serializedVersion: 2
         x: 310
@@ -13657,7 +13657,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_646
+      name: Barrel
       rect:
         serializedVersion: 2
         x: 345

@@ -496,28 +496,28 @@ TextureImporter:
     second: DK_Jump12
   - first:
       213: 7319251610130251644
-    second: DK_Jump13
+    second: DK_Fall1
   - first:
       213: 1758375976303598816
-    second: DK_Jump14
+    second: DK_Fall2
   - first:
       213: 4408834459349929700
-    second: DK_Jump15
+    second: DK_Fall3
   - first:
       213: -3047034748904369666
-    second: DK_Jump16
+    second: DK_Fall4
   - first:
       213: -5035281234183631478
-    second: DK_Jump17
+    second: DK_Fall5
   - first:
       213: -7745279686122653090
-    second: DK_Jump18
+    second: DK_Fall6
   - first:
       213: -4222025998180902063
-    second: SNES - Donkey Kong Country - Donkey Kong_170DK_Jump19
+    second: DK_Fall7
   - first:
       213: 2511610505773473669
-    second: DK_Jump20
+    second: DK_Fall8
   - first:
       213: 6398212699046010227
     second: SNES - Donkey Kong Country - Donkey Kong_172
@@ -6286,11 +6286,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Jump13
+      name: DK_Fall1
       rect:
         serializedVersion: 2
         x: 537
-        y: 2150
+        y: 2151
         width: 34
         height: 63
       alignment: 7
@@ -6307,7 +6307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Jump14
+      name: DK_Fall2
       rect:
         serializedVersion: 2
         x: 576
@@ -6328,7 +6328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Jump15
+      name: DK_Fall3
       rect:
         serializedVersion: 2
         x: 618
@@ -6349,7 +6349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Jump16
+      name: DK_Fall4
       rect:
         serializedVersion: 2
         x: 657
@@ -6370,7 +6370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Jump17
+      name: DK_Fall5
       rect:
         serializedVersion: 2
         x: 696
@@ -6391,7 +6391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Jump18
+      name: DK_Fall6
       rect:
         serializedVersion: 2
         x: 742
@@ -6412,7 +6412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Donkey Kong_170DK_Jump19
+      name: DK_Fall7
       rect:
         serializedVersion: 2
         x: 786
@@ -6433,7 +6433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DK_Jump20
+      name: DK_Fall8
       rect:
         serializedVersion: 2
         x: 840
