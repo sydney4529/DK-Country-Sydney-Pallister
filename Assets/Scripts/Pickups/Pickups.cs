@@ -9,7 +9,7 @@ public class Pickups : MonoBehaviour
         POWERUP,
         COLLECTIBLE,
         LIVES,
-        KEY
+        BONUS
     }
 
     public CollectibleType currentCollectible;
