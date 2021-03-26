@@ -157,7 +157,7 @@ public class GameManager : MonoBehaviour
 #if UNITY_EDITOR
             EditorApplication.isPlaying = false;
 #else
-    application.Quit();
+    Application.Quit();
 #endif
         }
 
@@ -205,7 +205,7 @@ public class GameManager : MonoBehaviour
         #if UNITY_EDITOR
           EditorApplication.isPlaying = false;
         #else
-         application.Quit();
+         Application.Quit();
         #endif
     }
 
