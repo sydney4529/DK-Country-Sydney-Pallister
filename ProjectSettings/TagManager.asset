@@ -6,6 +6,21 @@ TagManager:
   tags:
   - Ground
   - Pickups
+  - Enemy
+  - PlayerProjectile
+  - EnemyProjectile
+  - Squished
+  - Barrier
+  - Collectible
+  - PowerUp
+  - LevelEnd
+  - DeathBox
+  - TurretSquished
+  - Bounce
+  - LevelSwitch
+  - Tire
+  - BarrelBurst
+  - JumpThrough
   layers:
   - Default
   - TransparentFX
@@ -13,14 +28,14 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PlayerBullet
+  - EnemyBullet
+  - Player
+  - Enemy
+  - Collectibles
+  - Boundaries
+  - JumpThrough
+  - Barrier
   - 
   - 
   - 
