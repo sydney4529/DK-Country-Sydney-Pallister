@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
@@ -11,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     SpriteRenderer donkeyKongSprite;
+    AudioSource jumpAudioSource;
 
     public float speed;
     public int jumpForce;
@@ -21,36 +23,9 @@ public class PlayerMovement : MonoBehaviour
     public bool isFiring = false;
     public bool isRoll = false;
 
-    int _score;
-    public int score
-    {
-        get { return _score; }
-        set
-        {
-            _score = value;
-            Debug.Log("Current Score is " + _score);
-        }
-    }
+    public AudioMixerGroup mixerGroup;
 
-    public int maxLives = 3;
-    int _lives = 3;
-    public int lives
-    {
-        get { return _lives; }
-        set
-        {
-            _lives = value;
-            if(_lives > maxLives)
-            {
-                _lives = maxLives;
-            }
-            else if(_lives < 0)
-            {
-                //game over code goes here
-            }
-            Debug.Log("Current lives: " + _lives);
-        }
-    }
+    public AudioClip jumpSFX;
 
 
     private Vector3 initialScale;
@@ -60,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         donkeyKongSprite = GetComponent<SpriteRenderer>();
+        jumpAudioSource = GetComponent<AudioSource>();
 
         initialScale = transform.localScale;
 
@@ -92,50 +68,65 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
 
 
-
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Time.timeScale == 1 && GameManager.IsInputEnabled)
         {
-            //make jump velocity always the same, comment out if you dont want it
-            rb.velocity = Vector2.zero;
-            rb.AddForce(Vector2.up * jumpForce);
-            
-        }
 
-        if (Input.GetKey(KeyCode.Space) && Input.GetKey(KeyCode.UpArrow))
-        {
-            isRoll = true;
-        }
-        else
-        {
-            isRoll = false;
-        }
+            if (Input.GetButtonDown("Jump") && isGrounded)
+            {
+                //make jump velocity always the same, comment out if you dont want it
+                rb.velocity = Vector2.zero;
+                rb.AddForce(Vector2.up * jumpForce);
+                if (!jumpAudioSource)
+                {
+                    jumpAudioSource = gameObject.AddComponent<AudioSource>();
+                    jumpAudioSource.outputAudioMixerGroup = mixerGroup;
+                    jumpAudioSource.clip = jumpSFX;
+                    jumpAudioSource.loop = false;
+                    jumpAudioSource.Play();
+                }
+                else
+                {
+                    jumpAudioSource.Play();
+                }
 
-        if (Input.GetKeyUp(KeyCode.Space) && Input.GetKeyUp(KeyCode.UpArrow))
-        {
-            isRoll = false;
-        }
-      
+            }
 
-        if (Input.GetButtonDown("Fire1"))
-        {
-            isFiring = true;
-        }
+            if (Input.GetKey(KeyCode.Space) && Input.GetKey(KeyCode.UpArrow))
+            {
+                isRoll = true;
+            }
+            else
+            {
+                isRoll = false;
+            }
 
-        if (Input.GetButtonUp("Fire1"))
-        {
-            isFiring = false;
-        }
+            if (Input.GetKeyUp(KeyCode.Space) && Input.GetKeyUp(KeyCode.UpArrow))
+            {
+                isRoll = false;
+            }
 
-        rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
-        anim.SetFloat("speed", Mathf.Abs(horizontalInput));
 
-        anim.SetBool("isGrounded", isGrounded);
-        anim.SetBool("isFiring", isFiring);
-        anim.SetBool("isRoll", isRoll);
+            if (Input.GetButtonDown("Fire1"))
+            {
+                isFiring = true;
+            }
 
-        if(donkeyKongSprite.flipX && horizontalInput > 0 || !donkeyKongSprite.flipX && horizontalInput < 0)
-        {
-            donkeyKongSprite.flipX = !donkeyKongSprite.flipX;
+            if (Input.GetButtonUp("Fire1"))
+            {
+                isFiring = false;
+            }
+
+            rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+            anim.SetFloat("speed", Mathf.Abs(horizontalInput));
+
+            anim.SetBool("isGrounded", isGrounded);
+            anim.SetBool("isFiring", isFiring);
+            anim.SetBool("isRoll", isRoll);
+
+            if (donkeyKongSprite.flipX && horizontalInput > 0 || !donkeyKongSprite.flipX && horizontalInput < 0)
+            {
+                donkeyKongSprite.flipX = !donkeyKongSprite.flipX;
+            }
         }
 
     }
@@ -164,7 +155,9 @@ public class PlayerMovement : MonoBehaviour
                 {
                     case Pickups.CollectibleType.BONUS:
                         //add to inventory or other mechanic
-                        Destroy(collision.gameObject);
+                        curPickup.transform.position = new Vector3(curPickup.transform.position.x, curPickup.transform.position.y, -5000);
+                        curPickup.pickupAudioSource.Play();
+                        GameManager.instance.score++;
                         break;
                 }
             }

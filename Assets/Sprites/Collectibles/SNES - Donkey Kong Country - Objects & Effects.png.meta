@@ -532,7 +532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_21
+      name: GoldRhino
       rect:
         serializedVersion: 2
         x: 616
@@ -2422,7 +2422,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_111
+      name: BarellP1
       rect:
         serializedVersion: 2
         x: 273
@@ -2443,7 +2443,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_112
+      name: BarellP2
       rect:
         serializedVersion: 2
         x: 293
@@ -2464,7 +2464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_113
+      name: BarellP3
       rect:
         serializedVersion: 2
         x: 310
@@ -2485,7 +2485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_114
+      name: BarellP4
       rect:
         serializedVersion: 2
         x: 328
@@ -2506,7 +2506,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_115
+      name: BarellP5
       rect:
         serializedVersion: 2
         x: 346
@@ -2527,7 +2527,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_116
+      name: BarellP6
       rect:
         serializedVersion: 2
         x: 362
@@ -2548,7 +2548,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_117
+      name: BarellP7
       rect:
         serializedVersion: 2
         x: 375
@@ -2569,7 +2569,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_118
+      name: BarellP8
       rect:
         serializedVersion: 2
         x: 392
@@ -2632,7 +2632,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_121
+      name: BarellP9
       rect:
         serializedVersion: 2
         x: 277
@@ -2653,7 +2653,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_122
+      name: BarellP10
       rect:
         serializedVersion: 2
         x: 292
@@ -2674,7 +2674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_123
+      name: BarellP11
       rect:
         serializedVersion: 2
         x: 314
@@ -2695,7 +2695,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_124
+      name: BarellP12
       rect:
         serializedVersion: 2
         x: 345
@@ -2716,7 +2716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_125
+      name: BarellP13
       rect:
         serializedVersion: 2
         x: 375
@@ -2737,7 +2737,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_126
+      name: BarellP14
       rect:
         serializedVersion: 2
         x: 391
@@ -2758,7 +2758,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_127
+      name: BarellP15
       rect:
         serializedVersion: 2
         x: 416
@@ -2779,7 +2779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_128
+      name: BarellP16
       rect:
         serializedVersion: 2
         x: 448
@@ -2800,7 +2800,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_129
+      name: LargeBanana
       rect:
         serializedVersion: 2
         x: 619
@@ -2947,7 +2947,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_136
+      name: LifeIcon
       rect:
         serializedVersion: 2
         x: 132
@@ -6076,7 +6076,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_285
+      name: Tire1
       rect:
         serializedVersion: 2
         x: 23
@@ -6097,7 +6097,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_286
+      name: Tire2
       rect:
         serializedVersion: 2
         x: 73
@@ -6118,7 +6118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_287
+      name: Tire3
       rect:
         serializedVersion: 2
         x: 114
@@ -6139,11 +6139,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_288
+      name: Tire4
       rect:
         serializedVersion: 2
         x: 155
-        y: 975
+        y: 976
         width: 38
         height: 24
       alignment: 7
@@ -6160,7 +6160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_289
+      name: Tire5
       rect:
         serializedVersion: 2
         x: 198
@@ -6181,11 +6181,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_290
+      name: Tire6
       rect:
         serializedVersion: 2
         x: 241
-        y: 977
+        y: 978
         width: 38
         height: 40
       alignment: 7
@@ -6202,7 +6202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_291
+      name: Tire7
       rect:
         serializedVersion: 2
         x: 283
@@ -10738,7 +10738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_507
+      name: ArrowSign
       rect:
         serializedVersion: 2
         x: 778
@@ -10759,7 +10759,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Donkey Kong Country - Objects & Effects_508
+      name: ExitSign
       rect:
         serializedVersion: 2
         x: 816

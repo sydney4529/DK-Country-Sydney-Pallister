@@ -9,10 +9,38 @@ public class Pickups : MonoBehaviour
         POWERUP,
         COLLECTIBLE,
         LIVES,
+        COLLECTIBLE2,
         BONUS
     }
 
     public CollectibleType currentCollectible;
+    public AudioSource pickupAudioSource;
+    BoxCollider2D pickupCollider;
+
+    private SpriteRenderer sprite;
+
+    public AudioClip pickupAudio;
+
+    private void Start()
+    {
+        pickupAudioSource = gameObject.GetComponent<AudioSource>();
+        pickupCollider = gameObject.GetComponent<BoxCollider2D>();
+        sprite = GetComponent<SpriteRenderer>();
+
+        if (pickupAudio)
+        {
+            pickupAudioSource.clip = pickupAudio;
+            pickupAudioSource.loop = false;
+        }
+    }
+
+    private void Update()
+    {
+        if (!pickupAudioSource.isPlaying && !pickupCollider.enabled)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,21 +50,41 @@ public class Pickups : MonoBehaviour
             {
 
                 case CollectibleType.POWERUP:
-                    Debug.Log("powerup");
+                    //Debug.Log("powerup");
                     collision.GetComponent<PlayerMovement>().startJumpForceChange();
-                    Destroy(gameObject);
+                    //Destroy(gameObject);
+                    gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, -5000);
+
+                    pickupCollider.enabled = false;
+                    pickupAudioSource.Play();
                     break;
 
                 case CollectibleType.LIVES:
-                    collision.GetComponent<PlayerMovement>().lives++;
-                    Debug.Log("lives");
-                    Destroy(gameObject);
+                    //Debug.Log("lives");
+                    GameManager.instance.lives++;
+                    //Destroy(gameObject);
+                    gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, -5000);
+
+                    pickupCollider.enabled = false;
+                    pickupAudioSource.Play();
                     break;
 
                 case CollectibleType.COLLECTIBLE:
-                    Debug.Log("colectible");
-                    collision.GetComponent<PlayerMovement>().score++;
-                    Destroy(gameObject);
+                    //Debug.Log("colectible");
+                    GameManager.instance.score++;
+                    gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, -5000);
+
+                    pickupCollider.enabled = false;
+                    pickupAudioSource.Play();
+                    break;
+
+                case CollectibleType.COLLECTIBLE2:
+                    //Debug.Log("colectible");
+                    GameManager.instance.score+=3;
+                    gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, -5000);
+
+                    pickupCollider.enabled = false;
+                    pickupAudioSource.Play();
                     break;
 
             }
