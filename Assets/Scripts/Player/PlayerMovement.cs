@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     Animator anim;
     SpriteRenderer donkeyKongSprite;
     AudioSource jumpAudioSource;
+    AudioSource rollSource;
 
     public float speed;
     public int jumpForce;
@@ -26,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     public AudioMixerGroup mixerGroup;
 
     public AudioClip jumpSFX;
+    public AudioClip rollSFX;
 
 
     private Vector3 initialScale;
@@ -67,6 +69,13 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
 
+        if (!rollSource)
+        {
+            rollSource = gameObject.AddComponent<AudioSource>();
+            rollSource.outputAudioMixerGroup = mixerGroup;
+            rollSource.clip = rollSFX;
+            rollSource.loop = false;
+        }
 
         if (Time.timeScale == 1 && GameManager.IsInputEnabled)
         {
@@ -93,6 +102,8 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.Space) && Input.GetKey(KeyCode.UpArrow))
             {
+                rollSource.Play();
+                Debug.Log("rolled");
                 isRoll = true;
             }
             else
